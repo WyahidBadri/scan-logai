@@ -5,7 +5,7 @@
 
     }
     .top-button{
-        background-color: lightgrey; /* Green */
+        background-color: lightgrey; 
         border: none;
         color: black;
         text-align: center;
@@ -17,7 +17,7 @@
         padding: 200px 690px;
     }
     .bottom-button{
-        background-color: lightgrey; /* Green */
+        background-color: lightgrey; 
         border: none;
         color: black;
         text-align: center;

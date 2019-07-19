@@ -2,6 +2,7 @@ import React from 'react';
 import './scanner.css';
 
 export default function Scanner(){
+    
     return(
     <div className="scanner-main">
         <div className="scanner-rect">
