@@ -1,49 +1,54 @@
-@media (max-width: 1030px){
+ @media (max-width: 1030px){
     .recieving-detail-main{
         display: flex;
         flex-direction: column;
-
-    }
-    .top-button{
-        background-color: lightgrey; 
-        border: none;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        padding: 200px 690px;
-    }
-    .bottom-button{
-        background-color: lightgrey; 
-        border: none;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        padding: 200px 690px;
-    }
-    /* .recieve-top{
-        display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+    }
+    .top-recieve{
         width: 690px;
         height: 200px;
         background-color: lightgrey;
-        margin-bottom: 10px
     }
-    .recieve-bottom{
+    .bottom-recieve{
+        width: 690px;
+        height: 200px;
+        margin-top: 15px;
+        background-color: lightgrey;
+    }
+    .recieve-banner{
+        display: flex;
+        width: 690px;
+        height: 52px;
+        background-color: lightgrey;
+        margin-bottom: 10px;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .recieve-notification-icon{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 690px;
-        height: 200px;
-        background-color: lightgrey;
-        margin-top: 10px;
-    } */
-} 
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: aquamarine;
+        margin-top: 5px;
+        border-radius: 50px;
+    }
+    .productType-recieve{
+        display: flex;
+    }
+    .productid-recieve{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .productName-recieve{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sku-recieve{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}  

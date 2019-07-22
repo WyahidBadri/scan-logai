@@ -7,8 +7,6 @@ import './App.css';
 function App() {
   return ( 
     <div className="scan-container">
-    {/* <Scanner /> */}
-    {/* <RecievingDetail /> */}
     <RenderScan />
     </div>
   );
