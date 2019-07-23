@@ -1,6 +1,5 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './recievingDetail.css'
-import Scanner from './scanner'
 
 export default function RecievingDetail(props){
      let name = 'name'
@@ -10,7 +9,6 @@ export default function RecievingDetail(props){
     
     return(
        <div className="recieving-detail-main" onClick=  { () => props.setScan('clicked') }>
-
        <div className="recieve-banner">
             <p>Recieve incoming Shipment Purchase Order #12345</p>
                 <div className="recieve-notification-icon">
@@ -18,45 +16,35 @@ export default function RecievingDetail(props){
                 </div>
        </div>
             <div className="top-recieve">
-                <div className="productType">
-                    <p>Product Type</p>
-                    <p>{type}</p>
+                <div className="productType-recieve">
+                    <p>Product Type {type}</p>
                 </div>
                 <div className="productid-recieve">
-                    <p>Product ID</p>
-                    <p>{id}</p>
+                    <p>Product ID {id}</p>
+                    <img className="cam2" src='https://cdn1.vectorstock.com/i/1000x1000/86/20/colorful-photo-camera-icon-cartoon-style-vector-15008620.jpg' />
                 </div>
                 <div className="productName-recieve">
-                    <p>Product Name</p>
-                    <p>{name}</p>
+                    <p>Product Name {name}</p>
                 </div>
                 <div className="sku-recieve">
-                    <p>SKU # </p>
-                    <p>{number}</p>
+                    <p>SKU # {number}</p>
                 </div>
-
         </div>
         <div className="bottom-recieve">
-            <div className="productType">
-                        <p>Product Type</p>
-                        <p>Type</p>
-                    </div>
-                    <div className="productid-recieve">
-                        <p>Product ID</p>
-                        <p>ID</p>
-                    </div>
-                    <div className="productName-recieve">
-                        <p>Product Name</p>
-                        <p>Name</p>
-                    </div>
-                    <div className="sku-recieve">
-                        <p>SKU #</p>
-                        <p>#</p>
-                    </div>
+            <div className="productType-recieve">
+                    <p>Product Type {type}</p>
+                </div>
+                <div className="productid-recieve">
+                    <p>Product ID {id}</p>
+                    <img className="cam2" src='https://cdn1.vectorstock.com/i/1000x1000/86/20/colorful-photo-camera-icon-cartoon-style-vector-15008620.jpg' />
+                </div>
+                <div className="productName-recieve">
+                    <p>Product Name {name}</p>
+                </div>
+                <div className="sku-recieve">
+                    <p>SKU # {number}</p>
+                </div>
         </div>
-
        </div>
-       
-
     )
 }

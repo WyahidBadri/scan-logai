@@ -2,8 +2,8 @@
     .recieving-detail-main{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        font-family: 'Raleway', sans-serif;
     }
     .top-recieve{
         width: 690px;
@@ -13,42 +13,45 @@
     .bottom-recieve{
         width: 690px;
         height: 200px;
-        margin-top: 15px;
+        margin-top: 2%;
         background-color: lightgrey;
-    }
-    .recieve-banner{
-        display: flex;
-        width: 690px;
-        height: 52px;
-        background-color: lightgrey;
-        margin-bottom: 10px;
-        justify-content: center;
-        flex-direction: row-reverse;
-    }
-    .recieve-notification-icon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        width: 40px;
-        height: 40px;
-        background-color: aquamarine;
-        margin-top: 5px;
-        border-radius: 50px;
     }
     .productType-recieve{
         display: flex;
     }
     .productid-recieve{
         display: flex;
-        justify-content: space-evenly;
     }
     .productName-recieve{
         display: flex;
-        justify-content: space-evenly;
     }
     .sku-recieve{
         display: flex;
-        justify-content: space-evenly;
+    }
+    .cam2{
+        height: 8%;
+        width: 8%;
+        margin-left: 60%;
+    }
+    .recieve-banner{
+        display: flex;
+        width: 690px;
+        height: 52px;
+        background-color: lightgrey;
+        margin-bottom: 2%;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 2%;
+    }
+    .recieve-notification-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2%;
+        width: 40px;
+        height: 40px;
+        background-color: lightblue;
+        margin-top: 5px;
+        border-radius: 50px;
     }
 }  

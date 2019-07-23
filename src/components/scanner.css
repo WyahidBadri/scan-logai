@@ -4,6 +4,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: 'Raleway', sans-serif;
+
     }
     .banner-rect{
         display: flex;
@@ -59,7 +61,7 @@
     }
     .submit-product-detail{
         display: flex;
-        background-color: aqua;
+        background-color: lightblue;
         width: 451px;
         height: 90px;
         border-radius: 25px;
