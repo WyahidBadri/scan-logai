@@ -4,6 +4,8 @@
         flex-direction: column;
         align-items: center;
         font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        /* font-size: 22px; */
     }
     .top-recieve{
         width: 690px;
@@ -15,6 +17,18 @@
         height: 200px;
         margin-top: 2%;
         background-color: lightgrey;
+    }
+    .progress-bar-recieve{
+        width: 690px;
+        height: 24px;
+        border-style: solid;
+        border-radius: 30px;
+        margin-bottom: 6%;
+    }
+    .light-font-text{
+        font-weight: 300;
+        /* font-size: 22px; */
+        margin-left: 2%;
     }
     .productType-recieve{
         display: flex;
@@ -29,9 +43,18 @@
         display: flex;
     }
     .cam2{
-        height: 8%;
+        height: 80%;
         width: 8%;
         margin-left: 60%;
+    }
+    .scan-image-picture-text{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        position: absolute;
+    }
+    .text-under-pic{
+        margin-left: 59%;
     }
     .recieve-banner{
         display: flex;

@@ -20,22 +20,30 @@ export default function Scanner(){
         <div className="oval">
 
         </div>
-        <div className="product-type-rect">
+        <div className="product-info-rect">
             <div className="productType">
                 <p>Product Type</p>
-                <p>Type</p>
+                <div className="lighter-font">
+                     <p>Type</p>
+                </div>
             </div>
             <div className="productid">
                 <p>Product ID</p>
-                <p>ID</p>
+                <div className="lighter-font">
+                     <p>id</p>
+                </div>
             </div>
             <div className="productName">
                 <p>Product Name</p>
-                <p>Name</p>
+                <div className="lighter-font">
+                     <p>name</p>
+                </div>
             </div>
             <div className="sku">
                 <p>SKU #</p>
-                <p>#</p>
+                <div className="lighter-font">
+                     <p>number</p>
+                </div>
             </div>
         </div>
         <div className="submit-product-detail">
