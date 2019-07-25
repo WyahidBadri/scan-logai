@@ -1,5 +1,5 @@
 @media (max-width: 1030px) {
-    .scanner-main{
+    .page5-main{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -8,11 +8,11 @@
         font-weight: 700;
         font-size: 22px;
     }
-    .banner-rect{
+    .banner-page5{
         display: flex;
         width: 690px;
         height: 52px;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
         margin-bottom: 10px;
         justify-content: center;
         flex-direction: row-reverse;
@@ -24,45 +24,45 @@
         margin-right: 10px;
         width: 40px;
         height: 40px;
-        background-color: aquamarine;
+        background-color: #1D9DEB;
         border-radius: 50px;
     }
-    .scanner-rect{
+    .page5-rect{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white;
         border-style: solid;
-        border-color: grey;
+        border-color: #EFEFEF;
         width: 690px;
         height: 343px;;
     }
-    .scanner-inner-rect{
+    .page5-inner-rect{
         display: flex;
         justify-content: center;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
         width: 650px;
         height: 303px;
     }
-    .oval{
+    .oval-page5{
         border-style: solid;
-        border-color: lightgrey;
+        border-color: #EFEFEF;
         width: 64px;
         height: 64px;
         border-radius: 100px;
         margin-top: 10px;
     }
-    .product-info-rect{
+    .product-info-page5{
         display: flex;
         flex-direction: column;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
         margin-top: 10px;
         width: 690px;
         height: 256px;
     }
     .submit-product-detail{
         display: flex;
-        background-color: lightblue;
+        background-color: #1D9DEB;
         width: 451px;
         height: 90px;
         border-radius: 25px;
@@ -70,16 +70,16 @@
         align-items: center;
         margin-top: 10px;
     }
-    .productType{
+    .productType-page5{
         display: flex;
     }
-    .productid{
+    .productid-page5{
         display: flex;
     }
-    .productName{
+    .productName-page5{
         display: flex;
     }
-    .sku{
+    .sku-page5{
         display: flex;
     }
     .scan-text{

@@ -1,5 +1,5 @@
  @media (max-width: 1030px){
-    .recieving-detail-main{
+    .page4-detail-main{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -7,18 +7,18 @@
         font-weight: 700;
         /* font-size: 22px; */
     }
-    .top-recieve{
+    .top-page4{
         width: 690px;
         height: 200px;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
     }
-    .bottom-recieve{
+    .bottom-page4{
         width: 690px;
         height: 200px;
         margin-top: 2%;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
     }
-    .progress-bar-recieve{
+    .progress-bar-page4{
         width: 690px;
         height: 24px;
         border-style: solid;
@@ -30,16 +30,16 @@
         /* font-size: 22px; */
         margin-left: 2%;
     }
-    .productType-recieve{
+    .productType-page4{
         display: flex;
     }
-    .productid-recieve{
+    .productid-page4{
         display: flex;
     }
-    .productName-recieve{
+    .productName-page4{
         display: flex;
     }
-    .sku-recieve{
+    .sku-page4{
         display: flex;
     }
     .cam2{
@@ -56,11 +56,11 @@
     .text-under-pic{
         margin-left: 59%;
     }
-    .recieve-banner{
+    .page4-banner{
         display: flex;
         width: 690px;
         height: 52px;
-        background-color: lightgrey;
+        background-color: #EFEFEF;
         margin-bottom: 2%;
         justify-content: center;
         flex-direction: row-reverse;
@@ -73,7 +73,7 @@
         margin-right: 2%;
         width: 40px;
         height: 40px;
-        background-color: lightblue;
+        background-color: #1D9DEB;
         margin-top: 5px;
         border-radius: 50px;
     }

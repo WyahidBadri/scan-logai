@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
-import RecievingDetail from './recievingDetail'
-import Scanner from './scanner'
+import RecievingDetail from './recievingDetail-page4'
+import Scanner from './scanner-page5'
 import './render-scan.css';
 
 export default function RenderScan(){

@@ -1,5 +1,5 @@
 import React from 'react';
-import './recievingDetail.css'
+import './recievingDetail-page4.css'
 
 export default function RecievingDetail(props){
      let name = 'name'
@@ -8,25 +8,25 @@ export default function RecievingDetail(props){
      let type = 'type'
     
     return(
-       <div className="recieving-detail-main" onClick=  { () => props.setScan('clicked') }>
-       <div className="recieve-banner">
+       <div className="page4-detail-main" onClick=  { () => props.setScan('clicked') }>
+       <div className="page4-banner">
             <p>Recieve incoming Shipment Purchase Order #12345</p>
                 <div className="recieve-notification-icon">
                     <p>1</p>
                 </div>
             
        </div>
-       <div className="progress-bar-recieve">
+       <div className="progress-bar-page4">
                 
             </div>
-            <div className="top-recieve">
-                <div className="productType-recieve">
+            <div className="top-page4">
+                <div className="productType-page4">
                     <p>Product Type </p>
                     <div className="light-font-text">
                         <p>{type}</p>
                     </div>
                 </div>
-                <div className="productid-recieve">
+                <div className="productid-page4">
                     <p>Product ID </p>
                     <div className="light-font-text">
                          <p>{id}</p>
@@ -36,27 +36,27 @@ export default function RecievingDetail(props){
                          <p className="text-under-pic">scan image</p>
                     </div>
                 </div>
-                <div className="productName-recieve">
+                <div className="productName-page4">
                     <p>Product Name </p>
                     <div className="light-font-text">
                          <p>{name}</p>
                     </div>
                 </div>
-                <div className="sku-recieve">
+                <div className="sku-page4">
                     <p>SKU # </p>
                     <div className="light-font-text">
                          <p>{number}</p>
                     </div>
                 </div>
         </div>
-        <div className="bottom-recieve">
-            <div className="productType-recieve">
+        <div className="bottom-page4">
+            <div className="productType-page4">
                     <p>Product Type</p>
                     <div className="light-font-text">
                          <p>{type}</p>
                     </div>
                 </div>
-                <div className="productid-recieve">
+                <div className="productid-page4">
                     <p>Product ID </p>
                     <div className="light-font-text">
                          <p>{id}</p>
@@ -66,13 +66,13 @@ export default function RecievingDetail(props){
                          <p className="text-under-pic">scan image</p>
                     </div>
                 </div>
-                <div className="productName-recieve">
+                <div className="productName-page4">
                     <p>Product Name </p>
                     <div className="light-font-text">
                          <p>{name}</p>
                     </div>
                 </div>
-                <div className="sku-recieve">
+                <div className="sku-page4">
                     <p>SKU # </p>
                     <div className="light-font-text">
                          <p>{number}</p>

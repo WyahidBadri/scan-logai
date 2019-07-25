@@ -1,6 +1,6 @@
 import React from 'react';
-import Scanner from './components/scanner';
-import RecievingDetail from './components/recievingDetail'
+import Scanner from './components/scanner-page5';
+import RecievingDetail from './components/recievingDetail-page4'
 import RenderScan from './components/render-scan'
 import './App.css';
 
